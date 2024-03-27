@@ -1,0 +1,81 @@
+/* styles.css */
+.green-button {
+    background-color: #18676b; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 4px auto; /* Center the buttons horizontally */
+    display: block; /* Make buttons occupy full width */
+  }
+  
+  .green-button:hover {
+    background-color: #18676b; /* Darker Green */
+  }
+
+  .button-container {
+    background-color: #fff;
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box-shadow for a subtle elevation effect */
+    margin-top: 20px; /* Add margin-top for spacing */
+    width: 30%; /* Set the width to 50% of the viewport width */
+    max-width: 400px; /* Set maximum width for responsiveness */
+    display: flex; /* Align buttons horizontally */
+    justify-content: space-between; /* Distribute buttons evenly */
+    align-items: center; /* Center items vertically */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .button-container button {
+    padding: 8px 16px; /* Adjust button padding */
+    margin-left: 35px;
+    width: 25vw;
+    height: 10vh;
+  }
+  
+  
+  .confirmation-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .confirmation-modal p {
+    margin-bottom: 20px;
+  }
+  
+  .confirmation-modal button {
+    background-color: #18676b; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .confirmation-modal button:hover {
+    background-color: #18676b; /* Darker Green */
+  }
+  h1{
+    text-align: center;
+    color: white;
+    font-family: Helvetica sans-serif;
+    font-style: italic;
+  }

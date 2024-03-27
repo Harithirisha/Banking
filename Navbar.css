@@ -1,0 +1,76 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .background{
+    background: url("C:\Users\rajesh.natarajan\banking\src\assets\Background.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+  .nav-left {
+    flex-grow: 1; /* This will push the nav to the left, allowing the other content to align to the right */
+  }
+  
+  .nav-left ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-left ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .nav-left ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .signup-btn {
+    background-color: #080808;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .quote {
+ /* Light gray background */
+    padding: 40px; /* Adequate padding for content */
+    border-radius: 10px; /* Rounded corners */
+    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  .quote h1 {
+    color: #f8f3f3; /* Dark text color for heading */
+    font-size: 80px; /* Large font size for heading */
+    margin-bottom: 20px; /* Space between heading and paragraph */
+    font-weight: bold;
+    
+  }
+  
+  .quote p {
+ /* Slightly darker text color for paragraph */
+    font-size: 26px; /* Medium font size for paragraph */
+    line-height: 1.6; /* Adequate line height for readability */
+    color: white;
+    font-weight: bold;
+  }
+  
+  
+  

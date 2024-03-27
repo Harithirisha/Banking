@@ -1,0 +1,48 @@
+.apply-for-loan-container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .apply-for-loan-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .apply-for-loan-container form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .apply-for-loan-container label {
+    font-weight: bold;
+  }
+  
+  .apply-for-loan-container input[type="number"],
+  .apply-for-loan-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .apply-for-loan-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .apply-for-loan-container p {
+    color: red;
+    font-style: italic;
+  }
+
+  h1{
+    color: black;
+  }
+  

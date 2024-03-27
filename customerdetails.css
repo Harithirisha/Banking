@@ -1,0 +1,39 @@
+.user-details {
+    padding: 20px;
+  }
+  
+  .user-details h2 {
+    font-family:Helvetica sans-serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .user-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-details li {
+    margin-bottom: 20px;
+  }
+  
+  .user-details strong {
+    font-weight: bold;
+  }
+  
+  .user-details p {
+    margin: 0;
+  }
+  
+  /* Optional: Style for individual fields */
+  .user-details .field-name {
+    font-family:Helvetica sans-serif;
+    color: #000000; /* Example color for field names */
+  }
+  
+  .user-details .field-value {
+    color: #28a745; /* Example color for field values */
+  }
+  
+  /* Add additional styling as needed */
+  

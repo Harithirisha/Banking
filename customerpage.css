@@ -1,0 +1,199 @@
+/* customerpage.css */
+body{
+  background-color: #18676b;
+}
+
+.picture {
+  background-image: url('src/bg.webp');
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  position: relative;
+  height: 200vh;
+  opacity: 1;
+}
+
+.container {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  background-color:#18676b; /* Light gray background */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  min-height: 200vh; /* Ensure the container stretches to the full viewport height */
+  display: flex;
+  flex-direction: column; /* Arrange children in a column */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 19px;
+  background-color: #18676b; /* Black color for navbar */
+  color: white;
+  margin: 0; /* Remove margin */
+}
+  
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Helvetica  sans-serif; /* Change font as needed */
+    margin-right: 10px; /* Adjust space between logo and text */
+  }
+  
+  .picture h1{
+    font-family: Helvetica sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    color: black;
+  }
+
+  .button-containerss {
+    margin-top: 17px;
+  }
+  
+  .button-containerss button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #18676b; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 55px;
+  }
+  
+  .bank-info {
+    margin-top: 75px;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .bank-info h2{
+    font-size: 26px;
+    font-family: Helvetica sans-serif;
+  }
+  
+  .bank-info p {
+    font-size: 20px; /* Smaller font size for contact details */
+    font-family: Helvetica sans-serif;
+    line-height: 1.3; /* Tighter line height */
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-self: auto;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .bank-info h3 {
+    margin-top: 55px;
+    font-size: 25px;
+    font-family: Helvetica sans-serif;
+    font-style: inherit;
+  } 
+  
+  .bank-info ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .bank-info ul li {
+    margin-bottom: 5px; /* Reduce margin between contact details */
+  }
+  
+  .bank-info ul li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .footer {
+    background-color: #18676b; /* Dark background color for footer */
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 0; /* Remove margin */
+    margin-top: 0vh; /* Push the footer to the bottom of the container */
+    margin-bottom: 0vh;
+  }
+
+  .footer h3 {
+    font-size: 20px;
+    
+  }
+  
+  .footer p {
+    font-size: 14px;
+    color: white;
+    line-height: 1.3;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer ul li:last-child {
+    margin-bottom: 0;
+  }
+
+.container{
+  display: flex; /* Display containers side by side */
+  justify-content: center; /* Center the containers horizontally */
+}
+.awards {
+  display: grid;
+  flex-direction: column; /* Arrange children in a column */
+  gap:-2px; /* Add gap between elements */
+}
+
+.awards-header {
+  width: 80%; /* Ensure the header takes up full width */
+}
+
+.awards-header h3 {
+  margin: 0; /* Remove margin */
+  font-size: medium;
+}
+
+.award-box {
+  background-color:#b9995d62;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  transition: all 0.3s ease;
+  width: 50%; /* Ensure boxes take up full width */
+  height: 65%;
+  margin-left: 25%;
+}
+
+.award-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.award-box h4 {
+  color: #000000;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.award-box p {
+  color: #000000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 17px;
+}
+
+.award-box:hover p {
+  opacity: 1;
+}

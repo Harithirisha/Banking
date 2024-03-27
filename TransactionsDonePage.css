@@ -1,0 +1,38 @@
+.transactions-container {
+    margin-top: 20px;
+  }
+  
+  .transaction-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+   
+  h1{
+    color: white;
+  }
+  
+  .transaction-item > div {
+    margin-bottom: 10px;
+  }
+  
+  .transaction-item strong {
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .transaction-type {
+    color: #007bff; /* Color for transaction type */
+  }
+  
+  .transaction-amount {
+    color: #28a745; /* Color for transaction amount */
+  }
+  
+  .transaction-timestamp {
+    color: #6c757d; /* Color for transaction timestamp */
+  }
+  
